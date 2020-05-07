@@ -52,7 +52,7 @@ extension EarthquakesViewController: MKMapViewDelegate {
         
         if let magnitude = quake.magnitude {
             if magnitude >= 5.0 {
-                annotationView.ßmarkerTintColor = .red
+                annotationView.markerTintColor = .red
             } else if magnitude >= 3.0 && magnitude < 5.0 {
                 annotationView.markerTintColor = .orange
             } else {
