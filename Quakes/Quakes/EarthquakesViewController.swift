@@ -10,8 +10,6 @@ import UIKit
 import MapKit
 
 class EarthquakesViewController: UIViewController {
-
-    
     //MARK: Properties
         let quakeFetcher = QuakeFetcher()
 	// NOTE: You need to import MapKit to link to MKMapView
