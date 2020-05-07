@@ -12,6 +12,7 @@
 		7FA5F00D2464BE6300F57A38 /* QuakeFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD69304923F5DDAA00C0DF09 /* QuakeFetcher.swift */; };
 		7FA5F00E2464BE7F00F57A38 /* QuakeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD482541236B3C4F00FC12E9 /* QuakeDetailView.swift */; };
 		7FA5F0102464C08300F57A38 /* QuakeResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA5F00F2464C08300F57A38 /* QuakeResults.swift */; };
+		7FA5F0122464C34F00F57A38 /* Quake+MKAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA5F0112464C34F00F57A38 /* Quake+MKAnnotation.swift */; };
 		BD48251A236B3B6600FC12E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD482519236B3B6600FC12E9 /* AppDelegate.swift */; };
 		BD48251C236B3B6600FC12E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48251B236B3B6600FC12E9 /* SceneDelegate.swift */; };
 		BD482523236B3B6800FC12E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD482522236B3B6800FC12E9 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		7FA5F0082464A83D00F57A38 /* Quake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
 		7FA5F00B2464B85800F57A38 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		7FA5F00F2464C08300F57A38 /* QuakeResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeResults.swift; sourceTree = "<group>"; };
+		7FA5F0112464C34F00F57A38 /* Quake+MKAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quake+MKAnnotation.swift"; sourceTree = "<group>"; };
 		BD482516236B3B6600FC12E9 /* Quakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD482519236B3B6600FC12E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD48251B236B3B6600FC12E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				BD69304923F5DDAA00C0DF09 /* QuakeFetcher.swift */,
 				BD6DDD1A23993CB100CA2A91 /* Main.storyboard */,
 				7FA5F0082464A83D00F57A38 /* Quake.swift */,
+				7FA5F0112464C34F00F57A38 /* Quake+MKAnnotation.swift */,
 				BD482522236B3B6800FC12E9 /* Assets.xcassets */,
 				BD482524236B3B6800FC12E9 /* LaunchScreen.storyboard */,
 				BD482527236B3B6800FC12E9 /* Info.plist */,
@@ -231,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA5F0122464C34F00F57A38 /* Quake+MKAnnotation.swift in Sources */,
 				7FA5F00D2464BE6300F57A38 /* QuakeFetcher.swift in Sources */,
 				BD48251A236B3B6600FC12E9 /* AppDelegate.swift in Sources */,
 				7FA5F0092464A83D00F57A38 /* Quake.swift in Sources */,
